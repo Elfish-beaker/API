@@ -1,0 +1,16 @@
+{
+  "name": "js-backend",
+  "version": "1.0.0",
+  "description": "A backend service to send feature data to a Vercel server every 5 seconds.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
